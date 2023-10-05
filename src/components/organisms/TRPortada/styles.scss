@@ -1,0 +1,31 @@
+.portada_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .lotes_container {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 38%;
+
+    img.lotes {
+      width: 100%;
+    }
+  }
+
+  .video_container {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    .gif_portada {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: center;
+
+    }
+  }
+}
